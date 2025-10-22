@@ -1,0 +1,110 @@
+/* body{
+    background-image: url(./images/backimg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: cover;
+    height: 100vh;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 320px 320px 320px;
+}
+
+main>#art1{
+    background-image: url(./images/forty\ img\ 1.jpg);
+}
+main>#art2{
+    background-image: url(./images/forty\ img\ 2.jpg);
+    grid-column: span 2;
+}
+main>#art3{
+    background-image: url(./images/Forty\ img\ 3.jpg);
+    grid-column: span 2;
+}
+main>#art4{
+    background-image: url(./images/forty\ img\ 4.jpg);
+}
+main>#art5{
+    background-image: url(./images/Forty\ img\ 5.jpg);
+}
+main>#art6{
+    background-image: url(./images/forty\ img\ 6.jpg);
+    grid-column: span 2;
+}
+main>#art1>div{
+    background-color: #78c0d8d5;
+    height: 100%;
+}
+main>#art1>div:hover{
+    background-color:transparent;
+    transition: 2s;
+}
+main>#art2>div{
+    background-color: #8f87c2d6;
+    height: 100%;
+}
+main>#art2>div:hover {
+    background-color: transparent;
+    transition: 2s;
+}
+main>#art3>div{
+    background-color: #e59289c1;
+    height: 100%;
+}
+main>#art3>div:hover {
+    background-color: transparent;
+    transition: 2s;
+}
+main>#art4>div{
+    background-color:#dbb28ce0 ;
+    height: 100%;
+}
+main>#art4>div:hover {
+    background-color: transparent;
+    transition: 2s;
+}
+main>#art5>div{
+    background-color: #8aa2d9d4;
+    height: 100%;
+}
+main>#art5>div:hover {
+    background-color: transparent;
+    transition: 2s;
+}
+main>#art6>div{
+    background-color: #7cb69ad6;
+    height: 100%;
+}
+main>#art6>div:hover {
+    background-color: transparent;
+    transition: 2s;
+}
+main>article>div{
+    display: flex;
+    align-items: center;
+    /* padding-left: 30px; */
+
+}
+main>article>div>div{
+    margin-left: 30px;
+    color: white;
+}
+main>article>div>div>h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+main>article>div>div>hr{
+    height: 3px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+main>article>div>div>p{
+    text-transform: uppercase;
+}
